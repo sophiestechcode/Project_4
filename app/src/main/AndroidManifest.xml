@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ruben.project4">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".spinnermenu">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.spinnermenu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Delfshaven">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.Delfshaven" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Charlois">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.Charlois" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Centrum">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.Centrum" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PieChartt">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.PieChartt" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OtherPie">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.OtherPie" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Grouped">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.Grouped" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BarChartt">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.BarChartt" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LineChartt">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.LineChartt" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Feijenoord">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.Feijenoord" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Hillegersberg">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.Hillegersberg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Hoogvliet">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.Hoogvliet" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ijselmonde">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.Ijselmonde" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Kralingen">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.Kralingen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Noord">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.Noord" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ommoord">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.Ommoord" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Overschie">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.Overschie" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Pernis">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.Pernis" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".West">
+            <intent-filter>
+                <action android:name="android.intent.action.com.example.ruben.project4.West" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
