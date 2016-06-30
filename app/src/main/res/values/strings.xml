@@ -3,11 +3,17 @@
     <string name="app_name">project4</string>
 
     <string-array name="brew_array">
-        <item>Cappuccin</item>
+        <item>Cappuccin </item>
         <item>Espresso</item>
         <item>Mocha</item>
         <item>Caffè Americano</item>
         <item>Cafe Zorro</item>
     </string-array>
+
+    <string name="app_namee">Memo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_edit">Memo</string>
 
 </resources>
