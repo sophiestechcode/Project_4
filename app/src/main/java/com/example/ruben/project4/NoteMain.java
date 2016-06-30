@@ -1,5 +1,5 @@
 package com.example.ruben.project4;
-
+import com.example.ruben.project4.AlarmReceiver;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.app.TimePickerDialog;
@@ -41,6 +41,8 @@ public class NoteMain extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.notemain);
         buttonstartSetDialog = (Button) findViewById(R.id.startAlaram);
+
+
         buttonstartSetDialog.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -61,6 +63,8 @@ public class NoteMain extends AppCompatActivity {
         setupListViewListener();
 
         textAlarmPrompt = (TextView) findViewById(R.id.alarmprompt);
+
+
 
 
 
@@ -155,4 +159,5 @@ public class NoteMain extends AppCompatActivity {
                 pendingIntent);
 
     }
+
 }

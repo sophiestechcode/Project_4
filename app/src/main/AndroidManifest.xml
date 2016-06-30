@@ -19,9 +19,9 @@
             <intent-filter>
                 <action android:name="android.intent.action.com.example.ruben.project4.NoteMain" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.com.example.ruben.project4.NoteMain" />
                 <action android:name="android.media.action.IMAGE_CAPTURE" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.media.action.IMAGE_CAPTURE" />
