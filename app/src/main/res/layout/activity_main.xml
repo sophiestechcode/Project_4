@@ -11,19 +11,8 @@
     android:padding="5dp"
     android:longClickable="true"
     android:clickable="true"
-    android:background="#ffffff">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Fiets info Rotterdam"
-        android:textColor="#e80e0e"
-        android:textSize="25sp"
-        android:textIsSelectable="true"
-        android:gravity="center"
-        android:padding="25dp"
-        android:id="@+id/M1"
-        android:background="@color/Orangelike" />
+    android:background="#ffffff"
+    android:transitionGroup="false">
 
     <Button
         android:layout_width="match_parent"
@@ -33,7 +22,6 @@
         android:textSize="20sp"
         android:textColor="#d42727"
         android:clickable="true"
-        android:layout_below="@+id/M1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -59,10 +47,11 @@
         android:clickable="true"
         android:layout_below="@+id/button2"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:singleLine="false" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Fietsdiefstallen en trommels per wijk"
         android:id="@+id/button4"
@@ -70,7 +59,8 @@
         android:textSize="20dp"
         android:layout_below="@+id/button3"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:singleLine="false" />
 
     <Button
         android:layout_width="match_parent"
