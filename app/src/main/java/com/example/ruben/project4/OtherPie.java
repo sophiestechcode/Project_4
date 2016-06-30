@@ -62,7 +62,7 @@ public class OtherPie extends AppCompatActivity {
         grafiek.setData(data);
         grafiek.setHoleRadius(50f);
         grafiek.setTransparentCircleRadius(0f);
-        grafiek.setDescription("Percentage meest gestolen fiets kleur.");
+        grafiek.setDescription("");
         grafiek.animateY(1000);
         dataset.setValueTextSize(10f);
         dataset.setColors(new int[]{R.color.pie_2_1,R.color.pie_2_2,R.color.pie_2_3,R.color.pie_2_4,R.color.pie_2_5,R.color.pie_2_6,R.color.pie_2_7},context);

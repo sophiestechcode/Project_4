@@ -40,7 +40,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aantal gestolen fietsen per maand"
+        android:text="Aantal gestolen fietsen per wijk"
         android:id="@+id/button3"
         android:textSize="20sp"
         android:textColor="#e22121"

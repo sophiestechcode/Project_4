@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 public class PieChartt extends AppCompatActivity {
 
-    private static Button Button_1;
+
     PieChart grafiek;
 
     @Override
@@ -65,7 +65,7 @@ public class PieChartt extends AppCompatActivity {
         grafiek.animateY(1000);
         dataset.setValueTextSize(12f);
         dataset.setColors(ColorTemplate.PASTEL_COLORS);
-        grafiek.setDescription("Percentage meest gestolen fietsmerken");
+        grafiek.setDescription("");
         dataset.setColors(new int[]{R.color.pie_1_6,R.color.pie_1_1,R.color.pie_1_2,R.color.pie_1_5,R.color.pie_1_4,R.color.pie_1_3},context);
 
     }

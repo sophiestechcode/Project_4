@@ -34,7 +34,7 @@ public class LineChartt extends AppCompatActivity
         entries.add(new Entry(2f, 11));
         entries.add(new Entry(40f, 12));
 
-        LineDataSet dataset = new LineDataSet(entries, "The amount of stolen bicycles per month");
+        LineDataSet dataset = new LineDataSet(entries, "");
 
         ArrayList<String> labels = new ArrayList<String>();
         labels.add("Centrum");

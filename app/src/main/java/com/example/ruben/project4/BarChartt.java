@@ -46,7 +46,7 @@ public class BarChartt extends AppCompatActivity {
 //      dataset.setColors(ColorTemplate.COLORFUL_COLORS);
         barChart.setData(data);
         barChart.animateY(5000);
-        barChart.setDescription("Description");
+        barChart.setDescription("");
 
 
     }
