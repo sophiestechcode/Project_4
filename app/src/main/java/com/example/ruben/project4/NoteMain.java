@@ -137,7 +137,7 @@ public class NoteMain extends AppCompatActivity {
 
     private void setAlarm(Calendar targetCal) {
 
-        textAlarmPrompt.setText("\n\n***\n" + "Alarm is set "
+        textAlarmPrompt.setText("\n\n***\n" + "herinnering is gezet "
                 + targetCal.getTime() + "\n" + "***\n");
 
         Intent intent = new Intent(getBaseContext(), AlarmReceiver.class);

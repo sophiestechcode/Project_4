@@ -29,7 +29,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aantal fietstrommels"
+        android:text="Top 5 trommellocaties"
         android:id="@+id/button2"
         android:textSize="20sp"
         android:textColor="#e51111"
