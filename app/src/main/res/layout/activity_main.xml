@@ -12,7 +12,8 @@
     android:longClickable="true"
     android:clickable="true"
     android:background="#ffffff"
-    android:transitionGroup="false">
+    android:transitionGroup="false"
+    android:nestedScrollingEnabled="true">
 
     <Button
         android:layout_width="match_parent"
