@@ -20,36 +20,36 @@ public class LineChartt extends AppCompatActivity
         LineChart lineChart = (LineChart) findViewById(R.id.chart);
 
         ArrayList<Entry> entries = new ArrayList<>();
-        entries.add(new Entry(35f, 0));
-        entries.add(new Entry(11f, 1));
-        entries.add(new Entry(17f, 2));
-        entries.add(new Entry(17f, 3));
-        entries.add(new Entry(15f, 4));
-        entries.add(new Entry(28f, 5));
-        entries.add(new Entry(17f, 6));
-        entries.add(new Entry(34f, 7));
-        entries.add(new Entry(38f, 8));
-        entries.add(new Entry(8f, 9));
-        entries.add(new Entry(7, 10));
-        entries.add(new Entry(2f, 11));
-        entries.add(new Entry(40f, 12));
+        entries.add(new Entry(19552f, 0));
+        entries.add(new Entry(19713f, 1));
+        entries.add(new Entry(19257f, 2));
+        entries.add(new Entry(19544f, 3));
+        entries.add(new Entry(19750f, 4));
+        entries.add(new Entry(19758f, 5));
+        entries.add(new Entry(19198f, 6));
+        entries.add(new Entry(18234f, 7));
+        entries.add(new Entry(19047f, 8));
+        entries.add(new Entry(19436f, 9));
+        entries.add(new Entry(18291f, 10));
+        entries.add(new Entry(19712f, 11));
 
-        LineDataSet dataset = new LineDataSet(entries, "");
+
+        LineDataSet dataset = new LineDataSet(entries, "Aantal gestolen fietsen per maand");
 
         ArrayList<String> labels = new ArrayList<String>();
-        labels.add("Centrum");
-        labels.add("Charlois");
-        labels.add("Delfshaven");
-        labels.add("Feijenoord");
-        labels.add("Hillegersberg");
-        labels.add("Hoogvliet");
-        labels.add("IJsselmonde");
-        labels.add("Kralingen");
-        labels.add("Noord");
-        labels.add("Ommoord");
-        labels.add("Overschie");
-        labels.add("Pernis");
-        labels.add("West");
+        labels.add("Jan");
+        labels.add("Feb");
+        labels.add("Mar");
+        labels.add("Apr");
+        labels.add("May");
+        labels.add("Jun");
+        labels.add("Jul");
+        labels.add("Aug");
+        labels.add("Sep");
+        labels.add("Oct");
+        labels.add("Nov");
+        labels.add("Dec");
+
 
         LineData data = new LineData(labels, dataset);
         dataset.setColors(ColorTemplate.COLORFUL_COLORS);
