@@ -6,9 +6,6 @@ import com.github.mikephil.charting.utils.ViewPortHandler;
 
 import java.text.DecimalFormat;
 
-/**
- * Created by Ruben on 22-6-2016.
- */
 public class MyValueformatter implements ValueFormatter {
     private DecimalFormat mFormat;
 

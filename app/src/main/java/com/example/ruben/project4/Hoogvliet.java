@@ -13,9 +13,7 @@ import com.github.mikephil.charting.interfaces.datasets.IBarDataSet;
 
 import java.util.ArrayList;
 
-/**
- * Created by Ruben on 28-6-2016.
- */
+
 public class Hoogvliet extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {

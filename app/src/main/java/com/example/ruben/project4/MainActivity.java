@@ -85,26 +85,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent knop = new Intent("android.intent.action.com.example.ruben.project4.LineChartt");
                 startActivity(knop);
-
-
-
-
-//                URL url = null;
-//                try {
-//                    url = new URL("http://www.android.com/");
-//                } catch (MalformedURLException e) {
-//                    e.printStackTrace();
-//                }
-//                HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
-//                try {
-//                    InputStream in = new BufferedInputStream(urlConnection.getInputStream());
-//                    readStream(in);
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                } finally {
-//                    urlConnection.disconnect();
-//                }
-
             }
         });
     }

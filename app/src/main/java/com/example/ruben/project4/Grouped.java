@@ -20,7 +20,6 @@ public class Grouped extends AppCompatActivity {
         setContentView(R.layout.activity_grouped);
 
         BarChart barChart = (BarChart) findViewById(R.id.chart);
-        // HorizontalBarChart barChart= (HorizontalBarChart) findViewById(R.id.chart);
         ArrayList<BarEntry> trommels = new ArrayList<>();
         trommels.add(new BarEntry(88f, 0));
         trommels.add(new BarEntry(43f, 1));

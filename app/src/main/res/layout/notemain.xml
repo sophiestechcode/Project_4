@@ -51,7 +51,7 @@
         android:id="@+id/startAlaram"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Set Alaram Time"
+        android:text="Set Alarm Time"
         android:layout_above="@+id/etNewItem"
         android:layout_alignRight="@+id/btnAddItem"
         android:layout_alignEnd="@+id/btnAddItem"

@@ -7,32 +7,19 @@ import android.support.v7.app.AppCompatActivity;
 
 
 import com.github.mikephil.charting.charts.BarChart;
-import com.github.mikephil.charting.charts.CombinedChart;
-import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
-import com.github.mikephil.charting.data.CombinedData;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
-import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.interfaces.datasets.IBarDataSet;
-import com.github.mikephil.charting.utils.ColorTemplate;
+
 
 import java.util.ArrayList;
 
-/**
- * Created by Ruben on 28-6-2016.
- */
 public class Centrum extends AppCompatActivity {
-
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_centrum);
-
-
-
 
         Context context = this;
         ContextCompat.getColor(context,R.color.blue);

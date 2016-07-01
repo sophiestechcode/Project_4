@@ -52,34 +52,24 @@ public class NoteMain extends AppCompatActivity {
 
             }
         });
-        // ADD HERE
+
         lvItems = (ListView) findViewById(R.id.lvItems);
         items = new ArrayList<String>();
         readItems();
         itemsAdapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, items);
         lvItems.setAdapter(itemsAdapter);
-        // Setup remove listener method call
         setupListViewListener();
-
         textAlarmPrompt = (TextView) findViewById(R.id.alarmprompt);
-
-
-
-
-
     }
 
     private void openTimePickerDialog(boolean is24r) {
         Calendar calendar = Calendar.getInstance();
-
         timePickerDialog = new TimePickerDialog(NoteMain.this,
                 onTimeSetListener, calendar.get(Calendar.HOUR_OF_DAY),
                 calendar.get(Calendar.MINUTE), is24r);
         timePickerDialog.setTitle("Set Alarm Time");
-
         timePickerDialog.show();
-
     }
 
     private void setupListViewListener() {
@@ -138,7 +128,6 @@ public class NoteMain extends AppCompatActivity {
             calSet.set(Calendar.MILLISECOND, 0);
 
             if (calSet.compareTo(calNow) <= 0) {
-                // Today Set time passed, count to tomorrow
                 calSet.add(Calendar.DATE, 1);
             }
 

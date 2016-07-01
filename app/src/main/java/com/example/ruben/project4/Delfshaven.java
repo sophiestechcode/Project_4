@@ -13,9 +13,7 @@ import com.github.mikephil.charting.interfaces.datasets.IBarDataSet;
 
 import java.util.ArrayList;
 
-/**
- * Created by Ruben on 28-6-2016.
- */
+
 public class Delfshaven extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

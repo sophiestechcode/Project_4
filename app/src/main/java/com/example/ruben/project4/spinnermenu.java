@@ -93,7 +93,7 @@ public class spinnermenu extends AppCompatActivity implements AdapterView.OnItem
         }
     }
     public void onNothingSelected(AdapterView<?> parent) {
-        // TODO Auto-generated method stub
+
     }
 
     }
