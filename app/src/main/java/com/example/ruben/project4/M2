@@ -1,0 +1,29 @@
+package com.example.ruben.project4;
+
+/**
+ * Created by Gill on 2-7-2016.
+ */
+public class M2 {
+    private String MK_omschrijving;
+    private int Gemiddelde_maand;
+    public M2()
+    {
+    }
+    public M2(String MK_omschrijving, int Gemiddelde_maand)
+    {
+        this.MK_omschrijving = MK_omschrijving;
+        this.Gemiddelde_maand = Gemiddelde_maand;
+    }
+    public void setMK_omschrijving(String MK_omschrijving) {
+        this.MK_omschrijving = MK_omschrijving;
+    }
+    public void setGemiddelde_maand(int Gemiddelde_maand) {
+        this.Gemiddelde_maand = Gemiddelde_maand;
+    }
+    public String getMK_omschrijving() {
+        return MK_omschrijving;
+    }
+    public int getGemiddelde_maand() {
+        return Gemiddelde_maand;
+    }
+}
