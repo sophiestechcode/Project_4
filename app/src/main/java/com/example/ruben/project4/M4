@@ -1,0 +1,37 @@
+package com.example.ruben.project4;
+
+/**
+ * Created by Gill on 2-7-2016.
+ */
+public class M4 {
+    private String MK_omschrijving;
+    private String Merk;
+    private String Kleur;
+    public M4()
+    {
+    }
+    public M4(String MK_omschrijving, String Merk, String Kleur)
+    {
+        this.MK_omschrijving = MK_omschrijving;
+        this.Merk = Merk;
+        this.Kleur = Kleur;
+    }
+    public void setMK_omschrijving(String MK_omschrijving) {
+        this.MK_omschrijving = MK_omschrijving;
+    }
+    public void setMerk(String Merk) {
+        this.Merk = Merk;
+    }
+    public void setKleur(String Kleur) {
+        this.Kleur = Kleur;
+    }
+    public String getMK_omschrijving() {
+        return MK_omschrijving;
+    }
+    public String getMerk() {
+        return Merk;
+    }
+    public String getKleur() {
+        return Kleur;
+    }
+}
